@@ -1,22 +1,29 @@
-Projeto: Calculadora Científica
-Uma aplicação web de calculadora científica. Este foi meu primeiro projeto utilizando React, focado em aplicar conceitos fundamentais de desenvolvimento front-end.
+# Projeto: Calculadora Científica
 
-Tecnologias Utilizadas
-React
+Uma aplicação web de calculadora científica. Este foi meu primeiro projeto utilizando **React**, focado em aplicar conceitos fundamentais de desenvolvimento **front-end**.
 
-JavaScript (ES6+)
+---
 
-HTML5
+### Especificações Técnicas Obrigatórias
 
-CSS3
+* Desenvolver uma aplicação web simples que permita ao usuário realizar operações matemáticas básicas e científicas.
+* Implementar a lógica para processar diferentes tipos de operações (soma, subtração, multiplicação, divisão, seno, cosseno, logaritmo, etc.).
 
-O Que Aprendi
-Gerenciamento de Estado: Utilização do hook useState para gerenciar a entrada de dados e o histórico de operações.
+---
 
-Componentização: Criação e reutilização de componentes para a interface, como Botao para os números e operadores, e Display para mostrar os resultados.
+### Tecnologias Utilizadas
 
-Props: Passagem de dados e funções entre componentes (pai para filho), como o valor dos botões e a lógica de clique.
+* **React**
+* **JavaScript (ES6+)**
+* **HTML5**
+* **CSS3**
 
-Lógica de Negócios: Desenvolvimento da lógica para operações matemáticas complexas (ex: seno, cosseno, logaritmo) e tratamento de erros.
+---
 
-Renderização Condicional: Lógica para exibir a interface de diferentes modos, como alternar entre funções básicas e científicas.
+### O Que Aprendi
+
+* **Gerenciamento de Estado:** Utilização do *hook* `useState` para controlar a entrada de dados, o histórico de operações e o estado da interface.
+* **Componentização:** Criação e reutilização de componentes como `Botao` e `Display`, para manter o código modular e de fácil manutenção.
+* **Props:** Passagem de dados e funções entre componentes (`pai para filho`), para que os botões possam se comunicar com o display e a lógica principal.
+* **Lógica de Negócios:** Desenvolvimento da lógica para operações matemáticas complexas e tratamento de erros (ex: divisão por zero).
+* **Renderização Condicional:** Lógica para exibir diferentes partes da interface com base no estado da aplicação, como alternar entre funções básicas e científicas.
